@@ -66,7 +66,7 @@ Ce projet est une API de gestion de réservations d'hôtels conçue pour permett
 ### Backend
 1. **Cloner le dépôt** :
 ```bash
-git clone https://github.com/votre-utilisateur/votre-projet.git
+git clone 
 cd votre-projet/backend
 ```
 2. **Configurer la base de données** :
@@ -142,4 +142,5 @@ spring.jpa.hibernate.ddl-auto=update
 ## Auteurs
 - **KHALIL Fatima** - Développeur principal - **fatimakhalil929@gmail.com**
 ## Démonstration vidéo
+https://github.com/user-attachments/assets/4c0ca0ee-b678-485d-b347-3799546043f3
 
