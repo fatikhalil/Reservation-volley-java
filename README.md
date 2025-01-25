@@ -46,6 +46,9 @@ Ce projet est une API de gestion de réservations d'hôtels conçue pour permett
 - **Bibliothèque de réseau** : Volley pour les requêtes HTTP vers l'API backend.
 - **Interface utilisateur** : XML pour les layouts, avec des composants Material Design pour une expérience utilisateur moderne.
 - **Gestion des sessions** : Stockage des tokens JWT localement pour maintenir la session utilisateur.
+  ## Architecture de l'application
+  <img width="896" alt="Image" src="https://github.com/user-attachments/assets/ae4762f5-8265-4b5d-8ccc-b187f5478eba" />
+
 
 ## Prérequis
 ### Backend
@@ -135,7 +138,6 @@ spring.jpa.hibernate.ddl-auto=update
 ### Expérience Utilisateur
 - Ajouter des notifications push pour informer les utilisateurs des mises à jour de leurs réservations.
 - Intégrer un système de recherche avancée pour les chambres (filtres par prix, équipements, etc.).
-  <img width="896" alt="Image" src="https://github.com/user-attachments/assets/ae4762f5-8265-4b5d-8ccc-b187f5478eba" />
 
 ## Auteurs
 - **KHALIL Fatima** - Développeur principal - **fatimakhalil929@gmail.com**
