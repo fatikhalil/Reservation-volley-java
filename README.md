@@ -82,3 +82,76 @@ Le projet comprend :
    ```bash
    git clone https://github.com/votre-utilisateur/votre-projet.git
    cd votre-projet/backend
+   # Configurer la base de données
+
+Modifiez le fichier `application.properties` pour configurer les informations de connexion à la base de données.
+
+### Exemple pour MySQL :
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/hotel_booking
+spring.datasource.username=root
+spring.datasource.password=votre_mot_de_passe
+spring.jpa.hibernate.ddl-auto=update
+```
+
+# Exécuter l'application
+
+### Avec Maven :
+```bash
+./mvnw spring-boot:run
+```
+
+### Avec Gradle :
+```bash
+./gradlew bootRun
+```
+
+# Accéder à l'API
+
+L'API sera disponible à l'adresse : [http://localhost:8080](http://localhost:8080).
+
+# Frontend
+
+## Ouvrir le projet dans Android Studio
+
+1. Ouvrez Android Studio et sélectionnez "Open an existing project".
+2. Naviguez jusqu'au dossier `frontend` et ouvrez-le.
+
+## Configurer l'URL de l'API
+
+Modifiez l'URL de l'API dans le fichier `NetworkUtils.java` pour pointer vers votre backend.
+
+### Exemple :
+```java
+public static final String BASE_URL = "http://localhost:8080/api/";
+```
+
+## Exécuter l'application
+
+1. Connectez un appareil Android ou utilisez un émulateur.
+2. Cliquez sur "Run" dans Android Studio pour lancer l'application.
+
+# Tests
+
+## Backend
+
+Exécutez les tests unitaires et d'intégration avec :
+
+### Maven :
+```bash
+./mvnw test
+```
+
+### Gradle :
+```bash
+./gradlew test
+```
+
+## Frontend
+
+1. Testez l'application sur différents appareils et versions d'Android pour assurer la compatibilité.
+2. Utilisez des outils comme Postman pour tester les endpoints de l'API backend.
+
+# Auteurs
+Votre Nom
+
